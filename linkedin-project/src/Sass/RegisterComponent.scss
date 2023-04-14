@@ -1,0 +1,127 @@
+$linkedinBlue: #0077b1;
+$linkedinBlue2: #0073b1;
+$linkedinBlue3: #006094;
+
+.login-btn {
+    font-family: system-ui;
+    font-weight: 600;
+    width: 380px;
+    height: 60px;
+    cursor: pointer;
+    background-color: $linkedinBlue2;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    //  padding-bottom: 20px;
+    //  text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.login-btn:hover {
+
+    background-color: $linkedinBlue3;
+
+}
+
+.login-wrapper {
+    background: white;
+    height: 100vh;
+
+    .heading {
+        margin-left: 180px;
+        margin-top: 7rem;
+        margin-bottom: 0;
+        font-family: system-ui;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.9);
+        text-align: start;
+    }
+
+
+}
+
+.auth-inputs {
+    width: 400px;
+    display: flex;
+    // border: 2px solid black;
+    margin-left: 180px;
+    //   justify-content: center;
+    //   align-items: center;
+    flex-direction: column;
+
+    //   margin: auto;
+    .common-input {
+        outline: none;
+        height: 30px;
+        padding: 10px;
+        border: 1px solid #212121;
+        background-color: white;
+        border-radius: 3px;
+        margin: 1rem auto;
+        font-size: 22px;
+        font-family: system-ui;
+    }
+
+    .common-input:focus {
+        outline: 1px solid $linkedinBlue;
+
+
+    }
+
+    ::placeholder {
+        font-size: 22px;
+        font-family: system-ui;
+    }
+}
+
+.auth-inputs input {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin: 1rem auto;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#linkedinLogo {
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: $linkedinBlue;
+}
+
+.google-btn {
+    font-family: system-ui;
+    font-weight: 600;
+    width: 380px;
+    height: 60px;
+    cursor: pointer;
+    text-align: center;
+    // border: 1px solid black;
+    margin: 15px auto;
+
+    // background-color: $linkedinBlue2;
+    .google-btn {
+        width: 380px !important;
+        display: block;
+        border: 1px solid black;
+        margin: auto !important;
+    }
+
+    .joinNow {
+        color: $linkedinBlue;
+        font-family: system-ui;
+        cursor: pointer;
+        text-align: center;
+
+    }
+
+    .go-to-sign-up {
+        font-size: 18px;
+    }
+}
