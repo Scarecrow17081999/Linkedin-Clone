@@ -1,0 +1,37 @@
+.login-btn{
+   width: 150px;
+   height: 30px;
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   font-size: 16px;
+   text-align: center;
+   display: block;
+   margin: auto;
+}
+.common-input{
+    display: block;
+    margin: auto;
+}
+.login-wrapper{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    // display: flex;
+    // justify-content: center;
+    // margin-top: 100px;
+    // border: 2px solid black;
+}
+.auth-inputs{
+    display: flex;
+    // border: 2px solid black;
+    justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
